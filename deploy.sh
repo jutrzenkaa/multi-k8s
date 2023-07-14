@@ -1,3 +1,4 @@
+# docker build -t jasiek129908/multi-client:latest -t jasiek129908/multi-client:$SHA -f ./client/Dockerfile ./client
 docker build -t jasiek129908/multi-client:latest -t jasiek129908/multi-client:$SHA -f ./client/Dockerfile ./client
 docker build -t jasiek129908/multi-server:latest -t jasiek129908/multi-server:$SHA -f ./server/Dockerfile ./server
 docker build -t jasiek129908/multi-worker:latest -t jasiek129908/multi-worker:$SHA -f ./worker/Dockerfile ./worker
